@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active-nav {
+        @apply bg-primary text-basic
+    }
+
+    .active-nav2 {
+        @apply bg-gradient-to-tr from-blue-600 to-blue-400 shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40
+    }
+
+    .selected {
+        @apply border-2 border-blue-500
+    }
+}
+

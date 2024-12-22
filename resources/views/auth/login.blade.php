@@ -90,10 +90,10 @@
                                 class="w-4 h-4 bg-white border-2 rounded text-primary border-primary">
                             <label for="remember" class="text-lg text-primary">Ingat akun saya</label>
                         </div>
-                        <a href="/forgot-password"
+                        {{-- <a href="/forgot-password"
                             class="mt-1 text-lg w-fit text-primary hover:cursor-pointer hover:underline">
                             Lupa sandi?
-                        </a>
+                        </a> --}}
                         <div
                             class="mt-4 flex gap-4 justify-around text-xl *:w-1/2 *:font-semibold *:text-center *:rounded-xl *:py-2">
                             <a href="/"

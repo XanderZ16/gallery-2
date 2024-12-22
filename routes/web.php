@@ -17,7 +17,7 @@ Route::get('/', function () {
     return redirect('/photos');
 });
 
-Route::get('/photos', [PhotoController::class, 'index']);
+Route::get('/photos', [PhotoController::class, 'index'])->middleware('cache');
 Route::get('/albums', [AlbumController::class, 'index']);
 
 Route::group(['middleware' => 'guest'], function () {
